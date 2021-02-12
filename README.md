@@ -1,13 +1,13 @@
 Oblig X
 =======
-OsloMet brukernavn:
+OsloMet brukernavn:s348850
 
-GitHub brukernavn:
+GitHub brukernavn:issa-rashdan
 
-GitHub repo URL:
+GitHub repo URL:https://github.com/DATA1700/oblig-1-issa-rashdan
 
 URL til Heroku app:
 
-Fullt navn:
+Fullt navn:Issa Rashdan
 
 Kort beskrivelse av applikasjon (5–10 setninger):

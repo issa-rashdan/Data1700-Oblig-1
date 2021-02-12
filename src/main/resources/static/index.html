@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="index.js"></script>
+
+</head>
+<body>
+
+<h1>Bestilling av Kinobilletter</h1>
+
+
+Velgfilm:
+<select id="velg">
+    <option>Nimo</option>
+    <option>Shark</option>
+    <option>War Dogs</option>
+    <option>Fast & Furious 6</option>
+    <option>Fast & Furious 8</option>
+</select>
+<br>
+<br>
+
+Antall: <input type="number" id="antall">
+        <span id="Antall1" style="color:red"></span>
+
+<br>
+<br>
+<table>
+    <tr>
+        <td>Fornavn</td><td><input type="text1" id="Fornavn"/></td>
+        <td colspan="2" id="Fornavn1" style="color:red"></td>
+    </tr>
+    <tr>
+        <td>Etternavn</td><td><input type="text" id="Etternavn"/></td>
+        <td colspan="2" id="Etternavn1" style="color:red"></td>
+    </tr>
+    <tr>
+        <td>Telefonnr</td><td><input type="text" id="Telefonnr"/></td>
+        <td colspan="2" id="Telefonnr1" style="color:red"></td>
+    </tr>
+    <tr>
+        <td>E-post</td><td><input type="text" id="Epost"/></td>
+        <td colspan="2" id="Epost1" style="color:red"></td>
+    </tr>
+    <tr>
+        <td><button onclick="registrer()">Kjøp Billett</button></td>
+    </tr>
+
+</table>
+
+<h2>Alle billetter</h2>
+<br>
+<div id="personRegister"></div>
+
+<br>
+<br>
+
+<button onclick="slett()">Slett alle billettene</button>
+
+</body>
+</html>
+
